@@ -24,7 +24,7 @@ var pictures = [
 "img/5.jpg"
 ];
 
-pictures.forEach(function(image, i, arr){
+pictures.forEach(function(image, i, pictures){
 
 		task2.innerHTML += "<img src =" + image + ">";
 });
